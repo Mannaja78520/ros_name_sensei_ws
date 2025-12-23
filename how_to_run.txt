@@ -1,0 +1,10 @@
+ros2 run assign2_660610840 whisper_660610840 \
+  --ros-args \
+  -p who:=MK \
+  -p speaking:=shoutout \
+  -p spk_msg:="Successful assignment"
+
+
+ros2 param set /whisper_660610840 who MK
+ros2 param set /whisper_660610840 speaking shoutout
+ros2 param set /whisper_660610840 spk_msg "Successful assignment"
